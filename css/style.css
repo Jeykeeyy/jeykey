@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.navbar li {
+    margin: 0 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #008060; 
+    border-bottom: 2px solid #008060; 
+}
+
+
+/* footer */
